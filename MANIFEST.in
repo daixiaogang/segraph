@@ -1,17 +1,16 @@
 #documentation
 recursive-include docs/_build/html *
 
-#data used for clustering
-recursive-include vfclust/data *
+#image data used for segmentation
+recursive-include segraph/data *
 
 #phonetic representation
-include vfclust/t2p/t2p.c
-include vfclust/t2p/t2pin.tmp
-include vfclust/Makefile
+include segraph/t2p/t2p.c
+include segraph/t2p/t2pin.tmp
+include segraph/Makefile
 
 #example files
-include vfclust/example/EXAMPLE.*
-include vfclust/example/EXAMPLE_sem.*
+include segraph/example/EXAMPLE.*
 
 #Misc
 include CHANGES.txt
