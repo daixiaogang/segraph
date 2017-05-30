@@ -5,8 +5,6 @@ recursive-include docs/_build/html *
 recursive-include segraph/data *
 
 #phonetic representation
-include segraph/t2p/t2p.c
-include segraph/t2p/t2pin.tmp
 include segraph/Makefile
 
 #example files
@@ -15,3 +13,4 @@ include segraph/example/EXAMPLE.*
 #Misc
 include CHANGES.txt
 include LICENSE.txt
+include README.md
