@@ -37,7 +37,8 @@ segraph is now available at https://pypi.python.org/pypi/segraph/0.5
 
 ```
 1. Download the tar/zip from https://pypi.python.org/pypi/segraph/0.5
-2. Move the package to your desired location / python version, and unzip the archive. Optionally, if you have a linux-based machine (Ubuntu/OSX):
+2. Move the package to your desired location / python version, and unzip the archive. 
+Optionally, if you have a linux-based machine (Ubuntu/OSX):
       tar xvzf segraph-0.x.tar.gz -C /path/to/desireddirectory
 3. Migrate to the segraph folder, and run
       python setup.py install
