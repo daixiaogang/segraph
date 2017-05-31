@@ -5,7 +5,7 @@
 [![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)](https://david-dm.org/boennemann/badges)
 
 <p align="center">
-# <img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
+<img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
 </p>
 
 
