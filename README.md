@@ -1,8 +1,8 @@
 
 [![DOI](https://zenodo.org/badge/92789575.svg)](https://zenodo.org/badge/latestdoi/92789575)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)](https://david-dm.org/boennemann/badges)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]
+[![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)]
 
 <p align="center">
 <img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
@@ -97,5 +97,5 @@ You are welcome to send a pull-request.
 
 This project is licensed under the GNU General Public License v3 - see the [LICENSE.md](LICENSE.md) file for details
 
-[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)]
 
