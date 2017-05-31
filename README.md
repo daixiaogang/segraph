@@ -83,7 +83,6 @@ You are welcome to send a pull-request.
 
 * **Abhinandan Dubey** - *@alivcor* - [Human Interaction Lab, Stony Brook University](https://www.cs.stonybrook.edu/~adubey)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
