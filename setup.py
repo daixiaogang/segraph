@@ -13,7 +13,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='segraph',
     packages=['segraph'],  # this must be the same as the name above
-    version='0.2',
+    version='0.4',
     description='Creates graphs with edges and vertices from SLIC segments',
     author='Abhinandan Dubey',
     author_email='abhinandandubey@live.com',
