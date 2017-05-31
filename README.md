@@ -1,14 +1,14 @@
-# segraph
+# 
+
+<p align="center">
+<img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
+</p>
 
 [![DOI](https://zenodo.org/badge/92789575.svg)](https://zenodo.org/badge/latestdoi/92789575)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)](https://david-dm.org/boennemann/badges)
 
-
-<p align="center">
-<img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
-</p>
 
 
 The segraph library provides modules for creating graphs from SLIC segments. This can be used with PyStruct library for image segmentation using CRF.
