@@ -18,74 +18,76 @@ pip install numpy
 
 ### Installation
 
-There are three ways to install segraph on your system:
+There are multiple ways to install segraph on your system:
 
 #### Python Package Index
 
 segraph is now available at https://pypi.python.org/pypi/segraph/0.5
 
 
-```
-Give the example
-```
-
-And repeat
 
 ```
-until finished
+1. Download the tar/zip from https://pypi.python.org/pypi/segraph/0.5
+2. Move the package to your desired location / python version, and unzip the archive. Optionally, if you have a linux-based machine (Ubuntu/OSX):
+      tar xvzf segraph-0.x.tar.gz -C /path/to/desireddirectory
+3. Migrate to the segraph folder, and run
+      python setup.py install
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+#### Using pip
 
 ```
-Give an example
+pip install segraph
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+To upgrade,
 
 ```
-Give an example
+pip install --upgrade segraph
 ```
 
-## Deployment
 
-Add additional notes about how to deploy this on a live system
+## Using segraph
 
-## Built With
+segraph can be very helpful for creating graphs from SLIC segmented images (superpixels). Here is an example usage:
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+```
+from skimage.segmentation import slic
+from skimage.util import img_as_float
+from skimage import io as skimageIO
+from segraph import create_graph
+import numpy as np
+
+image = img_as_float(skimageIO.imread("segraph/data/flowers.png"))
+segments = slic(image, n_segments=500, sigma=1.0)
+# Create graph of superpixels 
+vertices, edges = create_graph(segments)
+
+# Compute centers:
+gridx, gridy = np.mgrid[:segments.shape[0], :segments.shape[1]]
+centers = dict()
+for v in vertices:
+    centers[v] = [gridy[segments == v].mean(), gridx[segments == v].mean()]
+
+```
+
+segraph can be used with PyStruct library for image segmentation using CRF.
+
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+You are welcome to send a pull-request.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Abhinandan Dubey** - *@alivcor* - [Human Interaction Lab, Stony Brook University](https://www.cs.stonybrook.edu/~adubey)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3 - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
 
