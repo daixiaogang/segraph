@@ -1,8 +1,8 @@
 
 [![DOI](https://zenodo.org/badge/92789575.svg)](https://zenodo.org/badge/latestdoi/92789575)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]
-[![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)]
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]()
+[![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)]()
 
 <p align="center">
 <img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
