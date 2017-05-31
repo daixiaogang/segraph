@@ -8,6 +8,7 @@ def create_graph(grid):
     :param grid: A grid of segments as returned by the slic function defined in skimage library
     :return: A graph as [vertices, edges]
     """
+    print("Creating a graph using segmented grid..")
     # get an array of unique labels
     vertices = np.unique(grid)
 
