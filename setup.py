@@ -14,7 +14,7 @@ setup(
     name='segraph',
     packages=['segraph'],  # this must be the same as the name above
     version='0.5',
-    description='Creates graphs with edges and vertices from SLIC segments',
+    description='Creates graphs with edges and vertices from SLIC segments. Can be used with PyStruct library for image segmentation using CRF.',
     author='Abhinandan Dubey',
     author_email='abhinandandubey@live.com',
     url='https://github.com/alivcor/segraph',  # use the URL to the github repo
@@ -32,6 +32,6 @@ setup(
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 2.7',
     ],
-    download_url='https://github.com/alivcor/segraph/archive/0.1.tar.gz',  # I'll explain this in a second
-    keywords=['testing', 'logging', 'example'],  # arbitrary keywords
+    download_url='https://github.com/alivcor/segraph/archive/0.5.tar.gz',  # I'll explain this in a second
+    keywords=['segmentation', 'image', 'crf', 'pystruct'],  # arbitrary keywords
 )

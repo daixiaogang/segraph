@@ -4,10 +4,10 @@ segraph package
 Submodules
 ----------
 
-segraph\.create\_graph module
------------------------------
+segraph\.segraph module
+-----------------------
 
-.. automodule:: segraph.create_graph
+.. automodule:: segraph.segraph
     :members:
     :undoc-members:
     :show-inheritance:

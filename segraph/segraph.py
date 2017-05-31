@@ -3,17 +3,17 @@
 
 
 def create_graph(grid):
+    """
+    This function creates a graph of vertices and edges from segments returned by SLIC.
+    :param array grid: A grid of segments as returned by the slic function defined in skimage library
+    :return: A graph as [vertices, edges]
+    """
     try:
         import numpy as np
     except ImportError:
         print(
             "NumPY is not installed. segraph needs NumPY to function. Please use 'pip install numpy' to install numpy.")
         exit(0)
-    """
-    This function creates a graph of vertices and edges from segments returned by SLIC.
-    :param grid: A grid of segments as returned by the slic function defined in skimage library
-    :return: A graph as [vertices, edges]
-    """
     print("Creating a graph using segmented grid..")
     # get an array of unique labels
     try:
