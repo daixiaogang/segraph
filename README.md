@@ -97,5 +97,5 @@ You are welcome to send a pull-request.
 
 This project is licensed under the GNU General Public License v3 - see the [LICENSE.md](LICENSE.md) file for details
 
-[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)]
+[![forthebadge](http://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/alivcor/segraph/#)
 
