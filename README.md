@@ -6,6 +6,10 @@
 [![dependencies Status](https://david-dm.org/boennemann/badges/status.svg)](https://david-dm.org/boennemann/badges)
 
 
+<p align="center">
+<img src="https://github.com/alivcor/segraph/blob/master/logo.png"/>
+</p>
+
 
 The segraph library provides modules for creating graphs from SLIC segments. This can be used with PyStruct library for image segmentation using CRF.
 
