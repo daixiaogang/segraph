@@ -11,7 +11,7 @@
 
 The segraph library provides modules for creating graphs from SLIC segments. This can be used with PyStruct library for image segmentation using CRF.
 
-[![GitHub]()](https://github.com/alivcor/segraph)
+[![:octocat:]()](https://github.com/alivcor/segraph)
 
 ## Getting Started
 
